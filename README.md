@@ -25,21 +25,21 @@ This Terraform project provisions an AWS Virtual Private Cloud (VPC) using the [
 
 Before using this Terraform configuration, ensure you have:
 
-- **Terraform (`>=1.0`)** installed: [Download Terraform](https://www.terraform.io/downloads.html)
-- **AWS CLI** installed and configured with valid credentials
-- An **AWS Account** with necessary permissions to create networking resources
+- Terraform (`>=1.0`)** installed: [Download Terraform](https://www.terraform.io/downloads.html)
+- AWS CLI installed and configured with valid credentials
+- An AWS Account with necessary permissions to create networking resources
 
 ## How to Use
 
 1. Initialize Terraform
-   terraform init
+   - terraform init
 2. Validate Configuration
-   terraform validate
+   - terraform validate
 3. Plan Deployment
-   terraform plan
+   - terraform plan
 4. Apply Changes
-   terraform apply -auto-approve
+   - terraform apply -auto-approve
 5. Destroy Resources (Optional)
-   terraform destroy -auto-approve
+   - terraform destroy -auto-approve
 
 
