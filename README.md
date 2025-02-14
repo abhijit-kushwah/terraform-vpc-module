@@ -20,15 +20,6 @@ This Terraform project provisions an AWS Virtual Private Cloud (VPC) using the [
 │── README.md # Project Documentation
 
 
-
-## Prerequisites
-
-Before using this Terraform configuration, ensure you have:
-
-- Terraform (`>=1.0`)** installed: [Download Terraform](https://www.terraform.io/downloads.html)
-- AWS CLI installed and configured with valid credentials
-- An AWS Account with necessary permissions to create networking resources
-
 ## How to Use
 
 1. Initialize Terraform
